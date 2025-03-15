@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="#F5F5F5">
+
+    <!-- Título de la pantalla -->
+    <TextView
+        android:id="@+id/tituloLista"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Canciones del Álbum Revolver - The Beatles"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="#212121"
+        android:gravity="center"
+        android:paddingBottom="16dp" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <!-- Canción 1 -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="8dp"
+                android:gravity="center_vertical">
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="1. Taxman"
+                    android:textSize="18sp" />
+
+                <CheckBox
+                    android:id="@+id/checkBox1"
+                    style="@style/EstiloCorazonCheckBox" />
+            </LinearLayout>
+
+            <!-- Canción 2 -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="8dp"
+                android:gravity="center_vertical">
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="2. Eleanor Rigby"
+                    android:textSize="18sp" />
+                <CheckBox
+                    android:id="@+id/checkBox2"
+                    style="@style/EstiloCorazonCheckBox" />
+            </LinearLayout>
+
+            <!-- Canción 3 -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="8dp"
+                android:gravity="center_vertical">
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="3. I'm Only Sleeping"
+                    android:textSize="18sp" />
+                <CheckBox
+                    android:id="@+id/checkBox3"
+                    style="@style/EstiloCorazonCheckBox" />
+            </LinearLayout>
+
+            <!-- Canción 4 -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="8dp"
+                android:gravity="center_vertical">
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="4. Love You To"
+                    android:textSize="18sp" />
+                <CheckBox
+                    android:id="@+id/checkBox4"
+                    style="@style/EstiloCorazonCheckBox" />
+            </LinearLayout>
+
+            <!-- Canción 5 -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="8dp"
+                android:gravity="center_vertical">
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="5. Here, There and Everywhere"
+                    android:textSize="18sp" />
+                <CheckBox
+                    android:id="@+id/checkBox5"
+                    style="@style/EstiloCorazonCheckBox" />
+            </LinearLayout>
+
+            <!-- Canción 6 -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="8dp"
+                android:gravity="center_vertical">
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="6. Yellow Submarine"
+                    android:textSize="18sp" />
+                <CheckBox
+                    android:id="@+id/checkBox6"
+                    style="@style/EstiloCorazonCheckBox" />
+            </LinearLayout>
+
+            <!-- Canción 7 -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="8dp"
+                android:gravity="center_vertical">
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="7. She Said She Said"
+                    android:textSize="18sp" />
+                <CheckBox
+                    android:id="@+id/checkBox7"
+                    style="@style/EstiloCorazonCheckBox" />
+            </LinearLayout>
+
+            <!-- Canción 8 -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="8dp"
+                android:gravity="center_vertical">
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="8. Good Day Sunshine"
+                    android:textSize="18sp" />
+                <CheckBox
+                    android:id="@+id/checkBox8"
+                    style="@style/EstiloCorazonCheckBox" />
+            </LinearLayout>
+
+            <!-- Canción 9 -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="8dp"
+                android:gravity="center_vertical">
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="9. And Your Bird Can Sing"
+                    android:textSize="18sp" />
+                <CheckBox
+                    android:id="@+id/checkBox9"
+                    style="@style/EstiloCorazonCheckBox" />
+            </LinearLayout>
+
+            <!-- Canción 10 -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="8dp"
+                android:gravity="center_vertical">
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="10. For No One"
+                    android:textSize="18sp" />
+                <CheckBox
+                    android:id="@+id/checkBox10"
+                    style="@style/EstiloCorazonCheckBox" />
+            </LinearLayout>
+
+            <!-- Canción 11 -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="8dp"
+                android:gravity="center_vertical">
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="11. Doctor Robert"
+                    android:textSize="18sp" />
+                <CheckBox
+                    android:id="@+id/checkBox11"
+                    style="@style/EstiloCorazonCheckBox" />
+            </LinearLayout>
+
+            <!-- Canción 12 -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="8dp"
+                android:gravity="center_vertical">
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="12. I Want to Tell You"
+                    android:textSize="18sp" />
+                <CheckBox
+                    android:id="@+id/checkBox12"
+                    style="@style/EstiloCorazonCheckBox" />
+            </LinearLayout>
+
+            <!-- Canción 13 -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="8dp"
+                android:gravity="center_vertical">
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="13. Got to Get You into My Life"
+                    android:textSize="18sp" />
+                <CheckBox
+                    android:id="@+id/checkBox13"
+                    style="@style/EstiloCorazonCheckBox" />
+            </LinearLayout>
+
+            <!-- Canción 14 -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="8dp"
+                android:gravity="center_vertical">
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="14. Tomorrow Never Knows"
+                    android:textSize="18sp" />
+                <CheckBox
+                    android:id="@+id/checkBox14"
+                    style="@style/EstiloCorazonCheckBox" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
